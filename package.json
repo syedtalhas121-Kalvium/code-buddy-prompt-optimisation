@@ -1,0 +1,24 @@
+{
+  "name": "code-buddy",
+  "version": "1.0.0",
+  "description": "AI-powered code review assistant with optimized system prompts and token logging",
+  "main": "src/callAI.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/callAI.js",
+    "test": "node src/callAI.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ai",
+    "prompt-engineering",
+    "token-efficiency",
+    "code-review"
+  ],
+  "author": "Kalvian",
+  "license": "MIT"
+}
